@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'mapper_speedrun'
+package_name = 'ros_humble_template_py'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mapper = mapper_speedrun.mapper:main'
+            'hello = ros_humble_template_py.hello:main'
         ],
     },
 )

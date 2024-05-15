@@ -28,4 +28,4 @@ RUN /bin/bash -c "source /opt/ros/humble/setup.bash && \
     colcon build --symlink-install --parallel-workers 4"
 
 # start the node
-CMD ["/bin/bash", "-c", "source /ros2_ws/install/setup.bash && ros2 run mapper_speedrun mapper"]
+CMD ["/bin/bash", "-c", "source /ros2_ws/install/setup.bash && ros2 run ros_humble_template_py hello"]
